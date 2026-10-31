@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Colores de los componentes lexicos del editor (enunciado Fase 1).
+   Van aqui y no en analizador.css porque los <span> se crean con innerHTML. */
+.tk-reservada  { color: #00008b; } /* azul oscuro */
+.tk-id         { color: #006400; } /* verde oscuro */
+.tk-numero     { color: #ff8c00; } /* anaranjado */
+.tk-cadena     { color: #800080; } /* morado */
+.tk-operador   { color: #ff0000; } /* rojo */
+.tk-comentario { color: #808080; } /* gris */
+.tk-consoleout { color: #7FFFD4; }
+.tk-consolein  { color: #A52A2A; }
+.tk-extraction  { color: #A52A2A; }
+.tk-insertion  { color: #A52A2A; }
+.tk-error      { text-decoration: underline wavy #ff0000; }

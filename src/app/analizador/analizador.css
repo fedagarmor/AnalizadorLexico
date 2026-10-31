@@ -1,0 +1,54 @@
+/* Editor: el <pre> coloreado queda detras y el textarea transparente encima */
+.editor {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    background: #fff;
+    margin-bottom: 12px;
+}
+
+.editor pre,
+.editor textarea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 8px;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Consolas, 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 20px;
+    tab-size: 4;
+    white-space: pre;
+    overflow: auto;
+}
+
+.editor pre {
+    overflow: hidden;
+    color: #000;
+    pointer-events: none;
+}
+
+.editor textarea {
+    background: transparent;
+    color: transparent;
+    caret-color: #000;
+    resize: none;
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 16px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 4px 10px;
+    text-align: left;
+}
